@@ -12,6 +12,7 @@ module.exports = {
       white: colors.white,
       black: colors.black,
       gray: colors.gray,
+      red: colors.red,
     },
     fontWeight: {
       light: 300,

@@ -1,6 +1,6 @@
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { signInWithGoogle } from "../lib/firebase";
+import { signInWithGoogle } from "../lib/auth";
 
 /**
  * A functional sign in component

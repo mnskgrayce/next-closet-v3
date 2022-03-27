@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 /**
  * Sort dropdown with dynamic options (need title and property name)

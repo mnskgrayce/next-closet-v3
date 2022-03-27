@@ -7,8 +7,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useContext, useState } from "react";
+import { signOutAndReload } from "../lib/auth";
 import { UserContext } from "../lib/context";
-import { signOutAndReload } from "../lib/firebase";
 
 /**
  * Navbar, duh (sign in sign out code imported from lib)

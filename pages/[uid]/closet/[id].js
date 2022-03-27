@@ -4,7 +4,8 @@ import { useDocument } from "react-firebase-hooks/firestore";
 import AuthCheck from "../../../components/AuthCheck";
 import ItemForm from "../../../components/ItemForm";
 import Loading from "../../../components/Loading";
-import { auth, db, docToJSON } from "../../../lib/firebase";
+import { docToJSON } from "../../../lib/api";
+import { auth, db } from "../../../lib/firebase";
 
 export default function ItemPage() {
   return (
@@ -28,6 +29,5 @@ const ItemManager = () => {
   if (error) return <Error message={error.message} />;
 
   const item = docToJSON(value);
-
   return <ItemForm item={item} />;
 };

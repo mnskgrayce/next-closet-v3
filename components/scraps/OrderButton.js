@@ -1,5 +1,5 @@
+import { faArrowDownAZ, faArrowUpAZ } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpAZ, faArrowDownAZ } from "@fortawesome/free-solid-svg-icons";
 
 /**
  * @param  {boolean} {isAscending

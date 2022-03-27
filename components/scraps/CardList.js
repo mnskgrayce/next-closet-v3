@@ -1,9 +1,9 @@
 import { useState } from "react";
 import ItemCard from "./ItemCard";
+import OrderButton from "./OrderButton";
 import OutfitCard from "./OutfitCard";
 import SearchBar from "./SearchBar";
 import SortDropdown from "./SortDropdown";
-import OrderButton from "./OrderButton";
 
 /**
  * Display a list of item or outfit cards with search and filter
